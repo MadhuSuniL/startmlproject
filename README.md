@@ -89,5 +89,3 @@ Contributions are welcome! If you have suggestions, feature requests, or bug rep
 1. Removed **License** and **Contact** sections.
 2. Added a second usage example for specifying a path.
 3. Kept all essential sections for clarity and usability.
-
-You can now save this as `README.md` in your repository's root directory.
