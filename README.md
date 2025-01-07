@@ -34,11 +34,21 @@ Once installed, you can create a new machine learning project from any directory
 startmlproject <project_name>
 ```
 
-Replace `<project_name>` with the desired name of your project. For example:
+### Example 1: Basic Usage
 
 ```bash
 startmlproject my_ml_project
 ```
+
+This creates a project named `my_ml_project` in the current directory.
+
+### Example 2: Specify a Path
+
+```bash
+startmlproject /path/to/projects/my_ml_project
+```
+
+This creates a project named `my_ml_project` in the specified path `/path/to/projects/`.
 
 ## Directory Structure
 
@@ -73,3 +83,11 @@ Contributions are welcome! If you have suggestions, feature requests, or bug rep
 3. Commit your changes: `git commit -m 'Add some feature'`.
 4. Push to the branch: `git push origin feature/your-feature-name`.
 5. Open a pull request.
+```
+
+### Changes:
+1. Removed **License** and **Contact** sections.
+2. Added a second usage example for specifying a path.
+3. Kept all essential sections for clarity and usability.
+
+You can now save this as `README.md` in your repository's root directory.
